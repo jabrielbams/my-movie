@@ -101,6 +101,12 @@
                                         {{ __('Register') }}
                                     </button>
                                 </div>
+                                <div class="col-md-6 offset-md-4 register-link">
+                                    <p>
+                                        Already have account?
+                                        <a href="{{ route('login') }}">Login</a>
+                                    </p>
+                                </div>
                             </div>
                         </form>
                     </div>
